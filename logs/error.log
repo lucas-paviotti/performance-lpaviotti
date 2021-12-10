@@ -1,0 +1,21 @@
+[2021-12-07T23:17:01.179] [ERROR] default - err MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\node_modules\mongoose\lib\connection.js:797:32)
+    at D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\node_modules\mongoose\lib\index.js:330:10
+    at D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-31\server.js:152:10)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
