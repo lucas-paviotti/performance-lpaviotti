@@ -82,3 +82,104 @@
 [2021-12-07T23:26:27.407] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 316
 [2021-12-07T23:26:27.417] [INFO] default - mongoose está conectado
 [2021-12-07T23:26:27.470] [INFO] default - Escuchando socket
+[2021-12-14T20:00:21.892] [WARN] default - test
+[2021-12-14T20:00:21.906] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 13520
+[2021-12-14T20:00:21.917] [INFO] default - mongoose está conectado
+[2021-12-14T20:01:14.117] [INFO] default - Escuchando socket
+[2021-12-14T20:01:16.520] [INFO] default - Escuchando socket
+[2021-12-14T20:05:56.798] [WARN] default - test
+[2021-12-14T20:05:56.810] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 3384
+[2021-12-14T20:05:56.818] [INFO] default - mongoose está conectado
+[2021-12-14T20:05:56.886] [INFO] default - Escuchando socket
+[2021-12-14T20:26:51.864] [WARN] default - test
+[2021-12-14T20:26:51.875] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 15688
+[2021-12-14T20:26:51.896] [INFO] default - mongoose está conectado
+[2021-12-14T20:26:51.902] [INFO] default - Escuchando socket
+[2021-12-14T20:30:42.967] [WARN] default - test
+[2021-12-14T20:30:42.979] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 3780
+[2021-12-14T20:30:42.990] [INFO] default - mongoose está conectado
+[2021-12-14T20:30:43.135] [INFO] default - Escuchando socket
+[2021-12-14T20:31:15.990] [INFO] default - Escuchando socket
+[2021-12-14T20:33:33.916] [WARN] default - test
+[2021-12-14T20:33:33.927] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 14612
+[2021-12-14T20:33:33.937] [INFO] default - mongoose está conectado
+[2021-12-14T20:33:56.805] [WARN] default - test
+[2021-12-14T20:33:56.817] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 12016
+[2021-12-14T20:33:56.827] [INFO] default - mongoose está conectado
+[2021-12-14T20:35:15.921] [WARN] default - test
+[2021-12-14T20:35:15.932] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 2476
+[2021-12-14T20:35:15.942] [INFO] default - mongoose está conectado
+[2021-12-14T20:35:32.519] [WARN] default - test
+[2021-12-14T20:35:32.530] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 13404
+[2021-12-14T20:35:32.540] [INFO] default - mongoose está conectado
+[2021-12-14T20:35:55.187] [WARN] default - test
+[2021-12-14T20:35:55.199] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 3932
+[2021-12-14T20:35:55.209] [INFO] default - mongoose está conectado
+[2021-12-14T20:36:22.322] [WARN] default - test
+[2021-12-14T20:36:22.333] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 15800
+[2021-12-14T20:36:22.343] [INFO] default - mongoose está conectado
+[2021-12-14T20:36:50.893] [WARN] default - test
+[2021-12-14T20:36:50.904] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 6288
+[2021-12-14T20:36:50.913] [INFO] default - mongoose está conectado
+[2021-12-14T20:37:07.743] [WARN] default - test
+[2021-12-14T20:37:07.754] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 7420
+[2021-12-14T20:37:07.764] [INFO] default - mongoose está conectado
+[2021-12-14T20:38:47.214] [INFO] default - Escuchando socket
+[2021-12-14T20:44:34.416] [INFO] default - Escuchando socket
+[2021-12-14T20:46:41.966] [WARN] default - test
+[2021-12-14T20:46:41.978] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 14440
+[2021-12-14T20:46:41.986] [INFO] default - mongoose está conectado
+[2021-12-14T20:46:42.139] [INFO] default - Escuchando socket
+[2021-12-14T20:46:48.703] [WARN] default - test
+[2021-12-14T20:46:48.715] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 13040
+[2021-12-14T20:46:48.726] [INFO] default - mongoose está conectado
+[2021-12-14T20:46:48.870] [INFO] default - Escuchando socket
+[2021-12-14T20:46:56.039] [WARN] default - test
+[2021-12-14T20:46:56.051] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 15364
+[2021-12-14T20:46:56.060] [INFO] default - mongoose está conectado
+[2021-12-14T20:46:56.141] [INFO] default - Escuchando socket
+[2021-12-14T20:47:08.490] [WARN] default - test
+[2021-12-14T20:47:08.501] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 13804
+[2021-12-14T20:47:08.512] [INFO] default - mongoose está conectado
+[2021-12-14T20:47:08.873] [INFO] default - Escuchando socket
+[2021-12-14T20:50:17.661] [WARN] default - test
+[2021-12-14T20:50:17.678] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 10528
+[2021-12-14T20:50:17.691] [INFO] default - mongoose está conectado
+[2021-12-14T20:50:17.821] [INFO] default - Escuchando socket
+[2021-12-14T20:50:44.386] [WARN] default - test
+[2021-12-14T20:50:44.403] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 15732
+[2021-12-14T20:50:44.415] [INFO] default - mongoose está conectado
+[2021-12-14T20:50:44.445] [INFO] default - Escuchando socket
+[2021-12-14T20:54:18.664] [WARN] default - test
+[2021-12-14T20:54:18.680] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 3828
+[2021-12-14T20:54:18.693] [INFO] default - mongoose está conectado
+[2021-12-14T20:54:22.882] [INFO] default - Escuchando socket
+[2021-12-14T20:55:08.272] [WARN] default - test
+[2021-12-14T20:55:08.289] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 5464
+[2021-12-14T20:55:08.302] [INFO] default - mongoose está conectado
+[2021-12-14T20:55:08.444] [INFO] default - Escuchando socket
+[2021-12-14T21:22:37.557] [WARN] default - test
+[2021-12-14T21:22:37.573] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 9204
+[2021-12-14T21:22:37.586] [INFO] default - mongoose está conectado
+[2021-12-14T21:22:37.650] [INFO] default - Escuchando socket
+[2021-12-14T21:26:30.900] [WARN] default - test
+[2021-12-14T21:26:30.916] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 14440
+[2021-12-14T21:26:30.928] [INFO] default - mongoose está conectado
+[2021-12-14T21:26:30.955] [INFO] default - Escuchando socket
+[2021-12-14T21:26:44.662] [INFO] default - Escuchando socket
+[2021-12-14T21:26:45.761] [INFO] default - Escuchando socket
+[2021-12-14T21:29:10.317] [WARN] default - test
+[2021-12-14T21:29:10.334] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 13376
+[2021-12-14T21:29:10.347] [INFO] default - mongoose está conectado
+[2021-12-14T21:29:10.878] [INFO] default - Escuchando socket
+[2021-12-14T21:33:11.707] [WARN] default - test
+[2021-12-14T21:33:11.723] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 9032
+[2021-12-14T21:33:11.732] [INFO] default - mongoose está conectado
+[2021-12-14T21:33:11.873] [INFO] default - Escuchando socket
+[2021-12-14T21:33:20.423] [INFO] default - Escuchando socket
+[2021-12-14T21:33:22.280] [INFO] default - Escuchando socket
+[2021-12-14T21:35:28.247] [WARN] default - test
+[2021-12-14T21:35:28.263] [INFO] default - Servidor http escuchando en el puerto 8443.  Process ID: 9168
+[2021-12-14T21:35:28.275] [INFO] default - mongoose está conectado
+[2021-12-14T21:35:33.882] [INFO] default - Escuchando socket
+[2021-12-14T21:35:37.857] [INFO] default - Escuchando socket

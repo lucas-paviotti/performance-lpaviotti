@@ -1,5 +1,4 @@
 const numCPUs = require('os').cpus().length;
-const { isPrime } = require('../utils/utils');
 
 const infoListar = async (req, res) => {
     try {
@@ -45,21 +44,6 @@ const infoListar = async (req, res) => {
     }
 }
 
-const testArtillery = async (req, res) => {
-    try {
-        const primes = []
-        const max = Number(req.query.max) || 1000
-        for (let i = 1; i <= max; i++) {
-            if (isPrime(i)) primes.push(i)
-        }
-        res.json(primes)
-    }
-    catch(e) {
-        throw `No se pudieron renderizar los datos: ${e}`;
-    }
-}
-
 module.exports = {
-    infoListar,
-    testArtillery
+    infoListar
 }

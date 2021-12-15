@@ -1,0 +1,11 @@
+config:
+  target: https://localhost:8443
+  phases:
+    - duration: 10
+      arrivalRate: 1
+      rampTo: 50
+scenarios:
+  - flow:
+      - log: "Nuevo usuario conectandose"
+      - get:
+          url: "/info"

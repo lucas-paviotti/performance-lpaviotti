@@ -6,6 +6,14 @@
   "scripts": {
     "start": "nodemon --ignore db/ --ignore node_modules/ server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test-profiler": "node --prof server.js",
+    "test-inspect": "node --prof --inspect server.js",
+    "test-artillery": "artillery run --insecure --output reports/report-artillery.json test-artillery.yaml && artillery report reports/report-artillery.json",
+    "test-autocannon": "node test-autocannon.js",
+    "test-0x": "0x -o server.js",
+    "process-profiler-artillery": "node --prof-process profiler_artillery.log > reports/result_profiler_artillery.txt",
+    "process-profiler-autocannon": "node --prof-process profiler_autocannon.log > reports/result_profiler_autocannon.txt",
+    "process-profiler-inspect": "node --prof-process profiler_inspect.log > reports/result_profiler_inspect.txt",
     "forever": "forever start server.js && forever list",
     "forever-watch": "forever start -w server.js && forever list",
     "pm2": "pm2 start server.js",
@@ -17,6 +25,7 @@
   "author": "Lucas Paviotti",
   "license": "ISC",
   "dependencies": {
+    "autocannon": "^7.5.0",
     "bcrypt": "^5.0.1",
     "cluster": "^0.7.7",
     "compression": "^1.7.4",

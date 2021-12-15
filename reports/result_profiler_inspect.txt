@@ -1,0 +1,534 @@
+Statistical profiling result from profiler_inspect.log, (2852 ticks, 1 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   1584   55.5%          C:\Windows\SYSTEM32\ntdll.dll
+   1053   36.9%          C:\Program Files\nodejs\node.exe
+      2    0.1%          C:\Windows\System32\KERNELBASE.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     23    0.8%   10.8%  LazyCompile: *parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:269:30
+     13    0.5%    6.1%  LazyCompile: *wrap D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:101:22
+      8    0.3%    3.8%  LazyCompile: *resolve path.js:153:10
+      8    0.3%    3.8%  LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:478:32
+      7    0.2%    3.3%  RegExp: (?:\r\n?|\n).*
+      6    0.2%    2.8%  LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      6    0.2%    2.8%  LazyCompile: *castChunk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:52:19
+      5    0.2%    2.3%  RegExp: [ \t]+$
+      5    0.2%    2.3%  LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      5    0.2%    2.3%  LazyCompile: *SourceNode D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:35:20
+      4    0.1%    1.9%  RegExp: \r?\n\s*?$
+      4    0.1%    1.9%  LazyCompile: *normalize path.js:299:12
+      4    0.1%    1.9%  LazyCompile: *invokePartial D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:298:23
+      4    0.1%    1.9%  LazyCompile: *SourceNode_walk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:221:53
+      3    0.1%    1.4%  RegExp: ^(?:\{\{(~)?#\*?)
+      3    0.1%    1.4%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+      3    0.1%    1.4%  LazyCompile: *template D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:52:18
+      3    0.1%    1.4%  LazyCompile: *session D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:179:26
+      3    0.1%    1.4%  LazyCompile: *mergeSource D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:267:36
+      3    0.1%    1.4%  LazyCompile: *generateList D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:143:38
+      3    0.1%    1.4%  LazyCompile: *extend D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\utils.js:28:16
+      3    0.1%    1.4%  LazyCompile: *end D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:250:27
+      3    0.1%    1.4%  LazyCompile: *anonymous D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:12:42
+      2    0.1%    0.9%  LazyCompile: *setopts D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:47:18
+      2    0.1%    0.9%  LazyCompile: *ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:188:15
+      2    0.1%    0.9%  LazyCompile: *resolvePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:492:36
+      2    0.1%    0.9%  LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      2    0.1%    0.9%  LazyCompile: *readFileAfterClose internal/fs/read_file_context.js:51:28
+      2    0.1%    0.9%  LazyCompile: *getTemplate D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:108:20
+      2    0.1%    0.9%  LazyCompile: *dirname path.js:644:10
+      2    0.1%    0.9%  LazyCompile: *anonymous D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:549:49
+      2    0.1%    0.9%  LazyCompile: *_storeHeader _http_outgoing.js:362:22
+      2    0.1%    0.9%  LazyCompile: *_getFile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:299:17
+      2    0.1%    0.9%  LazyCompile: *WhitespaceControl.Program D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:19:48
+      2    0.1%    0.9%  LazyCompile: *WhitespaceControl.BlockStatement.WhitespaceControl.DecoratorBlock.WhitespaceControl.PartialBlockStatement D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:75:152
+      2    0.1%    0.9%  LazyCompile: *Program D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:113:28
+      2    0.1%    0.9%  LazyCompile: *PartialStatement D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:175:46
+      1    0.0%    0.5%  RegExp: ^\/login\/?(?=\/|$)
+      1    0.0%    0.5%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.5%  RegExp: ^.*[\.\/\\]
+      1    0.0%    0.5%  RegExp: ^(?:as\s+\|)
+      1    0.0%    0.5%  RegExp: ^(?:\{\{(~)?\{)
+      1    0.0%    0.5%  RegExp: ^(?:\{\{(~)?\^\s*(~)?\}\})
+      1    0.0%    0.5%  RegExp: ^(?:\{\{(~)?&)
+      1    0.0%    0.5%  RegExp: ^(?:\s+)
+      1    0.0%    0.5%  RegExp: ^(?:[^\x00]+)
+      1    0.0%    0.5%  RegExp: ^(?:@)
+      1    0.0%    0.5%  RegExp: (?:^|[\\/])\.\.(?:[\\/]|$)
+      1    0.0%    0.5%  LazyCompile: *wrapper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\wrappy\wrappy.js:19:19
+      1    0.0%    0.5%  LazyCompile: *shouldSetCookie D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:464:29
+      1    0.0%    0.5%  LazyCompile: *setupParams D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:1034:36
+      1    0.0%    0.5%  LazyCompile: *setupHelper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:1020:36
+      1    0.0%    0.5%  LazyCompile: *setInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:399:40
+      1    0.0%    0.5%  LazyCompile: *setHeader _http_outgoing.js:559:57
+      1    0.0%    0.5%  LazyCompile: *serveStatic D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\serve-static\index.js:72:31
+      1    0.0%    0.5%  LazyCompile: *replaceStack D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:892:38
+      1    0.0%    0.5%  LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1    0.0%    0.5%  LazyCompile: *relative path.js:491:11
+      1    0.0%    0.5%  LazyCompile: *readFileAfterOpen fs.js:278:27
+      1    0.0%    0.5%  LazyCompile: *readFile fs.js:319:18
+      1    0.0%    0.5%  LazyCompile: *preparePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:63:21
+      1    0.0%    0.5%  LazyCompile: *prepareMustache D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:99:25
+      1    0.0%    0.5%  LazyCompile: *prepareBlock D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\helpers.js:140:22
+      1    0.0%    0.5%  LazyCompile: *parserOnMessageComplete _http_common.js:145:33
+      1    0.0%    0.5%  LazyCompile: *parseWithoutProcessing D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:33:32
+      1    0.0%    0.5%  LazyCompile: *once D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\once\once.js:21:15
+      1    0.0%    0.5%  LazyCompile: *onStatError D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\send\index.js:416:57
+      1    0.0%    0.5%  LazyCompile: *objectLiteral D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:123:40
+      1    0.0%    0.5%  LazyCompile: *isPathSeparator path.js:45:25
+      1    0.0%    0.5%  LazyCompile: *infoListar D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\controllers\info.controller.js:3:20
+      1    0.0%    0.5%  LazyCompile: *get data D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\session\cookie.js:117:11
+      1    0.0%    0.5%  LazyCompile: *fastparse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\parseurl\index.js:95:20
+      1    0.0%    0.5%  LazyCompile: *end _http_outgoing.js:795:45
+      1    0.0%    0.5%  LazyCompile: *compression D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\compression\index.js:59:31
+      1    0.0%    0.5%  LazyCompile: *compileProgram D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:87:42
+      1    0.0%    0.5%  LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1    0.0%    0.5%  LazyCompile: *basename path.js:740:11
+      1    0.0%    0.5%  LazyCompile: *alphasort D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:18:20
+      1    0.0%    0.5%  LazyCompile: *_writeRaw _http_outgoing.js:332:19
+      1    0.0%    0.5%  LazyCompile: *_handles_method D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:58:59
+      1    0.0%    0.5%  LazyCompile: *_getDir D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:266:16
+      1    0.0%    0.5%  LazyCompile: *View D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:52:14
+      1    0.0%    0.5%  LazyCompile: *SourceNode_toString D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:318:61
+      1    0.0%    0.5%  LazyCompile: *RES D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\inflight\inflight.js:18:28
+      1    0.0%    0.5%  LazyCompile: *Glob._readdir D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:523:36
+      1    0.0%    0.5%  LazyCompile: *Glob._processReaddir2 D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:373:44
+      1    0.0%    0.5%  LazyCompile: *Glob._process D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:296:36
+      1    0.0%    0.5%  LazyCompile: *ContentStatement D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:228:46
+      1    0.0%    0.5%  LazyCompile: *<anonymous> internal/fs/utils.js:644:42
+      1    0.0%    0.5%  LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:174:29
+      1    0.0%    0.5%  LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\helpers\each.js:15:44
+      1    0.0%    0.5%  LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:123:11
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+    212    7.4%   99.5%  JavaScript
+      0    0.0%    0.0%  C++
+     68    2.4%   31.9%  GC
+   2639   92.5%          Shared libraries
+      1    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   1584   55.5%  C:\Windows\SYSTEM32\ntdll.dll
+     49    3.1%    LazyCompile: *View D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:52:14
+     49  100.0%      LazyCompile: *infoListar D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\controllers\info.controller.js:3:20
+     39   79.6%        LazyCompile: *dispatch D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:98:45
+     39  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+     39  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+     10   20.4%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+     10  100.0%          LazyCompile: ~next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:114:16
+     10  100.0%            LazyCompile: ~dispatch D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:98:45
+     20    1.3%    C:\Program Files\nodejs\node.exe
+      3   15.0%      LazyCompile: *alphasort D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:18:20
+      3  100.0%        C:\Program Files\nodejs\node.exe
+      3  100.0%          LazyCompile: *finish D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:116:17
+      3  100.0%            LazyCompile: *Glob._finish D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:186:35
+      2   10.0%      LazyCompile: ~alphasort D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:18:20
+      2  100.0%        C:\Program Files\nodejs\node.exe
+      2  100.0%          LazyCompile: ~finish D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:116:17
+      2  100.0%            LazyCompile: ~Glob._finish D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:186:35
+      2   10.0%      LazyCompile: *inflight D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\inflight\inflight.js:7:19
+      2  100.0%        LazyCompile: *Glob._readdir D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:523:36
+      2  100.0%          LazyCompile: *Glob._process D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:296:36
+      2  100.0%            LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:623:43
+      2   10.0%      LazyCompile: *hash D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:596:14
+      2  100.0%        LazyCompile: ~isModified D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:425:24
+      2  100.0%          LazyCompile: ~shouldSetCookie D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:464:29
+      2  100.0%            LazyCompile: ~<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:220:28
+      1    5.0%      LazyCompile: ~onData D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\engine.io\lib\transports\polling.js:175:9
+      1  100.0%        LazyCompile: ~onEnd D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\engine.io\lib\transports\polling.js:148:19
+      1  100.0%          LazyCompile: ~emit events.js:349:44
+      1  100.0%            LazyCompile: ~endReadableNT internal/streams/readable.js:1310:23
+      1    5.0%      LazyCompile: ~MongoError D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\mongodb\lib\error.js:63:16
+      1  100.0%        LazyCompile: ~MongoServerError D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\mongodb\lib\error.js:108:16
+      1  100.0%          LazyCompile: ~messageHandler D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\mongodb\lib\cmap\connection.js:421:35
+      1  100.0%            LazyCompile: ~emit events.js:349:44
+      1    5.0%      LazyCompile: *store.generate D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:158:28
+      1  100.0%        LazyCompile: *session D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:179:26
+      1  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      1    5.0%      LazyCompile: *setupHelper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:1020:36
+      1  100.0%        LazyCompile: *invokeAmbiguous D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:699:44
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1    5.0%      LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1  100.0%        C:\Program Files\nodejs\node.exe
+      1    5.0%      LazyCompile: *readFileAfterStat fs.js:294:27
+      1    5.0%      LazyCompile: *pipe D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\send\index.js:510:43
+      1  100.0%        LazyCompile: *serveStatic D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\serve-static\index.js:72:31
+      1  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      1    5.0%      LazyCompile: *header D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:754:29
+      1  100.0%        LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      1  100.0%          LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1  100.0%            C:\Program Files\nodejs\node.exe
+      1    5.0%      LazyCompile: *end _http_outgoing.js:795:45
+      1  100.0%        LazyCompile: *end D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:250:27
+      1  100.0%          LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      1  100.0%            LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1    5.0%      Eval: ~<instance_members_initializer> internal/util/iterable_weak_map.js:29:3
+      1  100.0%        LazyCompile: ~IterableWeakMap internal/util/iterable_weak_map.js:28:1
+      1  100.0%          Eval: ~<anonymous> internal/source_map/source_map_cache.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:273:27
+      1    5.0%      C:\Program Files\nodejs\node.exe
+      1  100.0%        LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:130:39
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            LazyCompile: ~objectLiteral D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:123:40
+
+   1053   36.9%  C:\Program Files\nodejs\node.exe
+    580   55.1%    C:\Program Files\nodejs\node.exe
+     52    9.0%      LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+     18   34.6%        LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+     18  100.0%          C:\Program Files\nodejs\node.exe
+     17   32.7%        LazyCompile: *invokePartial D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:298:23
+     16   94.1%          LazyCompile: *invokePartialWrapper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:70:32
+     16  100.0%            LazyCompile: *<anonymous> :1:20
+      1    5.9%          LazyCompile: *<anonymous> :1:20
+      1  100.0%            LazyCompile: *ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:188:15
+     14   26.9%        LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+     14  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      8   57.1%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      6   42.9%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      2    3.8%        LazyCompile: *compileInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:507:24
+      2  100.0%          LazyCompile: ~ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:15
+      2  100.0%            LazyCompile: ~invokePartial D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:298:23
+      1    1.9%        LazyCompile: ~compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: ~compileInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:507:24
+     42    7.2%      C:\Program Files\nodejs\node.exe
+     13   31.0%        LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      9   69.2%          LazyCompile: *invokePartial D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:298:23
+      6   66.7%            LazyCompile: *invokePartialWrapper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:70:32
+      3   33.3%            LazyCompile: *<anonymous> :1:20
+      3   23.1%          LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      3  100.0%            C:\Program Files\nodejs\node.exe
+      1    7.7%          LazyCompile: *compileInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:15
+      5   11.9%        LazyCompile: *append D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:394:26
+      5  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      4   80.0%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1   20.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      3    7.1%        LazyCompile: *Glob._process D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:296:36
+      3  100.0%          LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:623:43
+      3  100.0%            LazyCompile: *RES D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\inflight\inflight.js:18:28
+      2    4.8%        LazyCompile: *setopts D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:47:18
+      1   50.0%          LazyCompile: *glob D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:63:15
+      1  100.0%            LazyCompile: *_getDir D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:266:16
+      1   50.0%          LazyCompile: *Glob D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:118:15
+      1  100.0%            LazyCompile: ~glob D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:63:15
+      2    4.8%        LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      2  100.0%          C:\Program Files\nodejs\node.exe
+      2    4.8%        LazyCompile: *expressInit D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\middleware\init.js:29:30
+      2  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      2    4.8%        LazyCompile: *appendEscaped D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:416:40
+      2  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      2  100.0%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1    2.4%        LazyCompile: ~pathtoRegexp D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\path-to-regexp\index.js:28:22
+      1  100.0%          LazyCompile: ~Layer D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:33:15
+      1  100.0%            LazyCompile: ~Layer D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:33:15
+      1    2.4%        LazyCompile: ~mergeSource D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:267:36
+      1  100.0%          LazyCompile: ~createFunctionContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:216:56
+      1  100.0%            LazyCompile: ~compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1    2.4%        LazyCompile: *pipe D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\send\index.js:510:43
+      1  100.0%          LazyCompile: *serveStatic D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\serve-static\index.js:72:31
+      1  100.0%            LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1    2.4%        LazyCompile: *parseAcceptEncoding D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\negotiator\lib\encoding.js:31:29
+      1  100.0%          LazyCompile: ~preferredEncodings D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\negotiator\lib\encoding.js:138:28
+      1  100.0%            LazyCompile: *onResponseHeaders D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\compression\index.js:140:47
+      1    2.4%        LazyCompile: *parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\minimatch\minimatch.js:271:16
+      1  100.0%          LazyCompile: *setopts D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:47:18
+      1  100.0%            LazyCompile: *glob D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:63:15
+      1    2.4%        LazyCompile: *parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:269:30
+      1  100.0%          LazyCompile: *parseWithoutProcessing D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:33:32
+      1  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1    2.4%        LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      1  100.0%          LazyCompile: *authenticate D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\passport\lib\middleware\authenticate.js:94:31
+      1  100.0%            LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1    2.4%        LazyCompile: *invokePartialWrapper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:70:32
+      1  100.0%          LazyCompile: *<anonymous> :1:20
+      1  100.0%            LazyCompile: *ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:188:15
+      1    2.4%        LazyCompile: *header D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:754:29
+      1  100.0%          LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      1  100.0%            LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1    2.4%        LazyCompile: *finish D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:116:17
+      1  100.0%          LazyCompile: ~Glob._finish D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:186:35
+      1  100.0%            LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:623:43
+      1    2.4%        LazyCompile: *<anonymous> internal/fs/utils.js:644:42
+      1  100.0%          LazyCompile: *hidden internal/errors.js:306:25
+      1  100.0%            LazyCompile: ~statSync fs.js:1119:18
+      1    2.4%        C:\Program Files\nodejs\node.exe
+      1  100.0%          LazyCompile: *Glob._process D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:296:36
+      1  100.0%            LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:623:43
+     22    3.8%      LazyCompile: ~realpathSync fs.js:1718:22
+     14   63.6%        LazyCompile: ~toRealPath internal/modules/cjs/loader.js:360:20
+     13   92.9%          LazyCompile: ~tryFile internal/modules/cjs/loader.js:351:17
+      9   69.2%            LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:367:23
+      4   30.8%            LazyCompile: ~tryPackage internal/modules/cjs/loader.js:305:20
+      1    7.1%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      8   36.4%        LazyCompile: *Module._findPath internal/modules/cjs/loader.js:461:28
+      8  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      8  100.0%            LazyCompile: *Module._load internal/modules/cjs/loader.js:724:24
+     22    3.8%      LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:478:32
+     21   95.5%        LazyCompile: *parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:269:30
+     17   81.0%          LazyCompile: *parseWithoutProcessing D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:33:32
+     17  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      4   19.0%          LazyCompile: *invokePartial D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:298:23
+      4  100.0%            LazyCompile: *invokePartialWrapper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\runtime.js:70:32
+      1    4.5%        LazyCompile: *lex D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:525:30
+      1  100.0%          LazyCompile: *parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:269:30
+      1  100.0%            LazyCompile: *parseWithoutProcessing D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:33:32
+     16    2.8%      LazyCompile: *readFile fs.js:319:18
+     16  100.0%        LazyCompile: *readFile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\graceful-fs\graceful-fs.js:111:21
+     14   87.5%          LazyCompile: *_getFile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:299:17
+     14  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      2   12.5%          LazyCompile: *getTemplate D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:108:20
+      2  100.0%            LazyCompile: *getTemplates D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:135:21
+     15    2.6%      LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      3   20.0%        LazyCompile: ~jsonParser D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\body-parser\lib\types\json.js:98:30
+      3  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      3  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      3   20.0%        LazyCompile: ~error D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\serve-static\index.js:115:39
+      3  100.0%          LazyCompile: *onStatError D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\send\index.js:416:57
+      3  100.0%            LazyCompile: *onstat D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\send\index.js:721:33
+      3   20.0%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:136:31
+      2   66.7%          LazyCompile: *router D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:46:18
+      2  100.0%            LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1   33.3%          LazyCompile: ~router D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:46:18
+      1  100.0%            LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      2   13.3%        LazyCompile: *session D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:179:26
+      2  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      1    6.7%        LazyCompile: ~session D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:179:26
+      1  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      1    6.7%        LazyCompile: ~handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:136:31
+      1  100.0%          LazyCompile: ~router D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:46:18
+      1  100.0%            LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1    6.7%        LazyCompile: ~cookieParser D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\cookie-parser\index.js:44:32
+      1  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      1    6.7%        LazyCompile: *authenticate D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\passport\lib\middleware\authenticate.js:94:31
+      1  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+     14    2.4%      LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+     13   92.9%        C:\Program Files\nodejs\node.exe
+      1    7.1%        LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1  100.0%          C:\Program Files\nodejs\node.exe
+     14    2.4%      LazyCompile: *infoListar D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\controllers\info.controller.js:3:20
+     11   78.6%        LazyCompile: *dispatch D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:98:45
+     11  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+     11  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      3   21.4%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      3  100.0%          LazyCompile: ~next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:114:16
+      3  100.0%            LazyCompile: ~dispatch D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\route.js:98:45
+     14    2.4%      LazyCompile: *SourceNode_walk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:221:53
+     13   92.9%        LazyCompile: *SourceNode_walk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:221:53
+     13  100.0%          LazyCompile: *SourceNode_walk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:221:53
+     11   84.6%            LazyCompile: *SourceNode_walk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:221:53
+      2   15.4%            LazyCompile: *SourceNode_toString D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:318:61
+      1    7.1%        LazyCompile: *SourceNode_toString D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\source-map\lib\source-node.js:318:61
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+     13    2.2%      LazyCompile: ~wrapSafe internal/modules/cjs/loader.js:973:18
+     13  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1026:37
+     13  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1081:37
+      9   69.2%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:925:33
+      4   30.8%            LazyCompile: *Module._load internal/modules/cjs/loader.js:724:24
+     13    2.2%      LazyCompile: *hash D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:596:14
+     10   76.9%        LazyCompile: *session D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:179:26
+     10  100.0%          LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+     10  100.0%            LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      2   15.4%        LazyCompile: *end D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:250:27
+      2  100.0%          LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      2  100.0%            LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1    7.7%        LazyCompile: ~isModified D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:425:24
+      1  100.0%          LazyCompile: ~shouldSetCookie D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:464:29
+      1  100.0%            LazyCompile: ~<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:220:28
+     12    2.1%      LazyCompile: ~statSync fs.js:1119:18
+     12  100.0%        LazyCompile: ~tryStat D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:174:17
+     12  100.0%          LazyCompile: ~resolve D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:146:42
+     12  100.0%            LazyCompile: ~lookup D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:104:40
+     12    2.1%      LazyCompile: ~stat internal/modules/cjs/loader.js:145:14
+      8   66.7%        LazyCompile: ~tryFile internal/modules/cjs/loader.js:351:17
+      8  100.0%          LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:367:23
+      8  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      4   33.3%        LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      4  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      4  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:724:24
+     10    1.7%      LazyCompile: *session D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-session\index.js:179:26
+     10  100.0%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+     10  100.0%          LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      8   80.0%            LazyCompile: *cookieParser D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\cookie-parser\index.js:44:32
+      2   20.0%            LazyCompile: ~cookieParser D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\cookie-parser\index.js:44:32
+     10    1.7%      LazyCompile: *resolve path.js:153:10
+      2   20.0%        LazyCompile: *getTemplate D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:108:20
+      2  100.0%          LazyCompile: *getTemplates D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:135:21
+      2  100.0%            C:\Program Files\nodejs\node.exe
+      1   10.0%        LazyCompile: ~lookup D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:104:40
+      1  100.0%          LazyCompile: ~View D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:52:14
+      1  100.0%            LazyCompile: *infoListar D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\controllers\info.controller.js:3:20
+      1   10.0%        LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      1  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      1  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:724:24
+      1   10.0%        LazyCompile: *stat internal/modules/cjs/loader.js:145:14
+      1  100.0%          LazyCompile: *Module._findPath internal/modules/cjs/loader.js:461:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      1   10.0%        LazyCompile: *setopts D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\common.js:47:18
+      1  100.0%          LazyCompile: *Glob D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:118:15
+      1  100.0%            LazyCompile: ~glob D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:63:15
+      1   10.0%        LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1   10.0%        LazyCompile: *relative path.js:491:11
+      1  100.0%          LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\view.js:133:40
+      1   10.0%        LazyCompile: *_getFile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:299:17
+      1  100.0%          LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1  100.0%            LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1   10.0%        LazyCompile: *Glob._process D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:296:36
+      1  100.0%          LazyCompile: *<anonymous> D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\glob\glob.js:623:43
+      1  100.0%            LazyCompile: *RES D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\inflight\inflight.js:18:28
+     10    1.7%      LazyCompile: *initialize D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\passport\lib\middleware\initialize.js:51:29
+     10  100.0%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+     10  100.0%          LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+     10  100.0%            LazyCompile: *compression D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\compression\index.js:59:31
+      9    1.6%      LazyCompile: *setupHelper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:1020:36
+      5   55.6%        LazyCompile: *invokeAmbiguous D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:699:44
+      5  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      5  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      3   33.3%        LazyCompile: *invokeKnownHelper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:682:48
+      3  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      2   66.7%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1   33.3%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1   11.1%        LazyCompile: ~invokeKnownHelper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:682:48
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: ~compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      8    1.4%      LazyCompile: ~fromStringFast buffer.js:422:24
+      8  100.0%        LazyCompile: ~fromString buffer.js:441:20
+      7   87.5%          LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      7  100.0%            LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1   12.5%          LazyCompile: ~from buffer.js:303:28
+      1  100.0%            LazyCompile: ~send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      8    1.4%      LazyCompile: *wrap D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:101:22
+      3   37.5%        LazyCompile: *resolvePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:492:36
+      3  100.0%          LazyCompile: *lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      3  100.0%            LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1   12.5%        LazyCompile: *wrap D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:101:22
+      1  100.0%          LazyCompile: *resolvePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:492:36
+      1  100.0%            LazyCompile: *lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      1   12.5%        LazyCompile: *replaceStack D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:892:38
+      1  100.0%          LazyCompile: *append D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:394:26
+      1  100.0%            LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1   12.5%        LazyCompile: *invokeAmbiguous D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:699:44
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1   12.5%        LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:15
+      1   12.5%        LazyCompile: *appendEscaped D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:416:40
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      8    1.4%      LazyCompile: *expressInit D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\middleware\init.js:29:30
+      8  100.0%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      8  100.0%          LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      6   75.0%            LazyCompile: *query D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\middleware\query.js:39:24
+      2   25.0%            LazyCompile: ~query D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\middleware\query.js:39:24
+      8    1.4%      LazyCompile: *append D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:394:26
+      8  100.0%        LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      5   62.5%          LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      5  100.0%            C:\Program Files\nodejs\node.exe
+      3   37.5%          LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      3  100.0%            LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      8    1.4%      LazyCompile: *WhitespaceControl.Program D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:19:48
+      5   62.5%        LazyCompile: *accept D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\visitor.js:57:26
+      4   80.0%          LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      4  100.0%            C:\Program Files\nodejs\node.exe
+      1   20.0%          LazyCompile: ~WhitespaceControl.BlockStatement.WhitespaceControl.DecoratorBlock.WhitespaceControl.PartialBlockStatement D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:75:152
+      1  100.0%            LazyCompile: *WhitespaceControl.Program D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:19:48
+      3   37.5%        LazyCompile: *WhitespaceControl.BlockStatement.WhitespaceControl.DecoratorBlock.WhitespaceControl.PartialBlockStatement D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:75:152
+      3  100.0%          LazyCompile: *WhitespaceControl.Program D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:19:48
+      2   66.7%            LazyCompile: *accept D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\visitor.js:57:26
+      1   33.3%            LazyCompile: *WhitespaceControl.BlockStatement.WhitespaceControl.DecoratorBlock.WhitespaceControl.PartialBlockStatement D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\whitespace-control.js:75:152
+      7    1.2%      LazyCompile: *cookieParser D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\cookie-parser\index.js:44:32
+      7  100.0%        LazyCompile: *handle D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\layer.js:86:49
+      7  100.0%          LazyCompile: *next D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\router\index.js:176:16
+      7  100.0%            LazyCompile: ~error D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\serve-static\index.js:115:39
+      6    1.0%      LazyCompile: *setWriteHeadHeaders D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\on-headers\index.js:105:30
+      6  100.0%        LazyCompile: *writeHead D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\on-headers\index.js:28:29
+      5   83.3%          LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      5  100.0%            LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1   16.7%          LazyCompile: *writeHead D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\on-headers\index.js:28:29
+      1  100.0%            LazyCompile: *send D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express\lib\response.js:107:25
+      6    1.0%      LazyCompile: *resolvePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:492:36
+      5   83.3%        LazyCompile: *lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      5  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      3   60.0%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      2   40.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1   16.7%        LazyCompile: ~lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      6    1.0%      LazyCompile: *castChunk D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:52:19
+      6  100.0%        LazyCompile: *generateList D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:143:38
+      4   66.7%          LazyCompile: *objectLiteral D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:123:40
+      4  100.0%            LazyCompile: *setupHelper D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:1020:36
+      2   33.3%          LazyCompile: *invokePartial D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:725:40
+      2  100.0%            LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+     14    1.3%    LazyCompile: *wrap D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\code-gen.js:101:22
+      5   35.7%      LazyCompile: *resolvePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:492:36
+      4   80.0%        LazyCompile: *lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      4  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      4  100.0%            LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1   20.0%        LazyCompile: ~lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      4   28.6%      LazyCompile: *invokeAmbiguous D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:699:44
+      4  100.0%        LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      4  100.0%          LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      4  100.0%            C:\Program Files\nodejs\node.exe
+      1    7.1%      LazyCompile: ~push D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:868:22
+      1  100.0%        LazyCompile: ~replaceStack D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:892:38
+      1  100.0%          LazyCompile: ~resolvePath D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:492:36
+      1  100.0%            LazyCompile: ~lookupOnContext D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:448:44
+      1    7.1%      LazyCompile: ~appendToBuffer D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:42:42
+      1  100.0%        LazyCompile: ~append D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:394:26
+      1  100.0%          LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: ~compileInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:507:24
+      1    7.1%      LazyCompile: *resolvePossibleLambda D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:527:56
+      1  100.0%        LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: *compileChildren D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:805:44
+      1  100.0%            LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1    7.1%      LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%        LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1    7.1%      LazyCompile: *append D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:394:26
+      1  100.0%        LazyCompile: *compile D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      1  100.0%            C:\Program Files\nodejs\node.exe
+     12    1.1%    LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+     10   83.3%      C:\Program Files\nodejs\node.exe
+      1    8.3%      LazyCompile: ~renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1  100.0%        C:\Program Files\nodejs\node.exe
+      1    8.3%      LazyCompile: *renderView D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:183:19
+      1  100.0%        C:\Program Files\nodejs\node.exe
+     12    1.1%    LazyCompile: *parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:269:30
+      9   75.0%      LazyCompile: *parseWithoutProcessing D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:33:32
+      9  100.0%        LazyCompile: *render D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\express-handlebars\lib\express-handlebars.js:150:15
+      9  100.0%          C:\Program Files\nodejs\node.exe
+      3   25.0%      LazyCompile: ~parseWithoutProcessing D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:33:32
+      3  100.0%        LazyCompile: ~parse D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:51:15
+      3  100.0%          LazyCompile: ~compileInput D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:507:24
+      3  100.0%            LazyCompile: ~ret D:\Users\Lucas\curso-backend\Codigo\Desafios\clase-32\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:15
+
